@@ -2,10 +2,10 @@
 # I want to work with this file
 name: Website Deployment
 on:
+  workflow_call: 
   push:
     branches:
       - master
-       on.workflow_call
 jobs:
   lint:
     runs-on: ubuntu-latest
